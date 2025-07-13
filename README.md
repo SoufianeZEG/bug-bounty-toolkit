@@ -89,19 +89,26 @@ chmod +x zegs.sh
 
 Results saved in `output/target-timestamp/`.
 
-📁 Output Structure
+## 📁 Output Structure
+
+```
 output/
-└── example.com-YYYY-MM-DD_HH-MM-SS/
+└── example.com-2025-07-13_16-45-30/
     ├── subs.txt
     ├── live.txt
     ├── urls.txt
     ├── js_urls.txt
     ├── php_urls.txt
     ├── mantra/
+    │   └── mantra_output.json
     ├── sqlmap/
+    │   └── sqlmap_scan.log
     ├── dirsearch/
-    ├── smuggler/
-    └── ...
+    │   └── dirsearch_results.txt
+    └── smuggler/
+        └── smuggler_report.txt
+```
+
 
 
 ## 🤝 Contributing
